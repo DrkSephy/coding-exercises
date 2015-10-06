@@ -13,8 +13,14 @@
 
 function removeRotten(bagOfFruits){
   var newBagOfFruits = []; 
+  
+  if (bagOfFruits.length == null) {
+    return []; 
+  }
+  
   bagOfFruits.map(function(item) {
-    newBagOfFruits.push(item.replace(/rotten/i, '')); 
+    newBagOfFruits.push(item.replace(/rotten/i, '').toLowerCase()); 
   });
+  
   return newBagOfFruits; 
 }
