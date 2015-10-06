@@ -18,12 +18,12 @@ function multiples(x){
     return "Fang";
   }
   
-  else if (x % 15 == 0) {
-    return "Foo"; 
+  else if (x % 7 == 0) {
+    return "Fizz"; 
   }
   
-  else if (x % 7 == 0) {
-    return "Fizz";
+  else if (x % 15 == 0) {
+    return "Foo";
   }
   
   else {
