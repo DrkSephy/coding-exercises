@@ -14,7 +14,7 @@
 function removeRotten(bagOfFruits){
   var newBagOfFruits = []; 
   
-  if (bagOfFruits.length == null) {
+  if (bagOfFruits == null) {
     return []; 
   }
   
